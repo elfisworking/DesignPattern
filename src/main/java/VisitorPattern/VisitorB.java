@@ -2,7 +2,7 @@ package VisitorPattern;
 
 import VisitorPattern.Interface.Visitor;
 
-public class VisitorA implements Visitor {
+public class VisitorB implements Visitor {
     public void visit(ElementA elementA) {
         System.out.println("输出 elementA"+elementA.opA());
     }
